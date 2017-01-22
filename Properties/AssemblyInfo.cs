@@ -1,4 +1,4 @@
-﻿using System.Resources;
+using System.Resources;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -11,8 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("yath")]
 [assembly: AssemblyProduct("upnpc")]
-[assembly: AssemblyCopyright("GPLv2")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("MIT")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

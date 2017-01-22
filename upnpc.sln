@@ -1,12 +1,15 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
+
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "upnpc", "upnpc.csproj", "{2194AE5B-761B-47D3-856F-67FFC426D700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPnP", "..\..\..\Users\yath\Downloads\DeveloperToolsForUPnPTechnologies\DeveloperToolsForUPnP\Global\UPnP\UPnP.csproj", "{584ED187-8F2A-4B58-A266-85F3F212B092}"
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPnP", ".\intel-upnp-dlna\UPnP\UPnP.csproj", "{584ED187-8F2A-4B58-A266-85F3F212B092}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

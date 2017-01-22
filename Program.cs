@@ -1,4 +1,4 @@
-﻿using OpenSource.UPnP;
+using OpenSource.UPnP;
 using System;
 using System.Diagnostics;
 using System.Threading;
