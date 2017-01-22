@@ -1,0 +1,3 @@
+[submodule "intel-upnp-dlna"]
+	path = intel-upnp-dlna
+	url = https://github.com/genielabs/intel-upnp-dlna
