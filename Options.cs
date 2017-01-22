@@ -148,7 +148,7 @@ namespace upnpc {
                 "\t/sv:var=value\tSet variable 'var' to 'value'\n" +
                 "\t/gv:var\tPrint (Get) 'var's value before exiting\n" +
                 "\t/dv\tDump all variables instead of calling action\n" +
-                "\t/ev:var=value\tAfter call, expect 'var' to be 'value\n",
+                "\t/ev:var=value\tAfter call, expect 'var' to be 'value'",
                 dft.DisoveryTimeoutMs, // 0
                 dft.RediscoveryMs, // 1
                 dft.DeviceURN ?? "urn:...", // 2
