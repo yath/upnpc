@@ -133,29 +133,30 @@ namespace upnpc {
             Options dft = new Options(); // default options
 
             return string.Format(
-                "UPnPClient Arguments:\n" +
-                "\t/t:{0}\tDiscovery timeout in ms\n" +
-                "\t/r:{1}\tRediscovery every ms\n" +
+                "{0} arguments:\n" +
+                "\t/t:{1}\tDiscovery timeout in ms\n" +
+                "\t/r:{2}\tRediscovery every ms\n" +
                 "\t/vd\tVerbose discovery\n" +
                 "\n" +
-                "\t/du:{2}\tDevice URN\n" +
-                "\t/di:{3}\tDevice UDN (ID)\n" +
-                "\t/df:{4}\tDevice friendly name\n" +
-                "\t/su:{5}\tService URN\n" +
-                "\t/si:{6}\tService ID\n" +
+                "\t/du:{3}\tDevice URN\n" +
+                "\t/di:{4}\tDevice UDN (ID)\n" +
+                "\t/df:{5}\tDevice friendly name\n" +
+                "\t/su:{6}\tService URN\n" +
+                "\t/si:{7}\tService ID\n" +
                 "\n" +
                 "\t/a:action\tCall action 'action'\n" +
                 "\t/sv:var=value\tSet variable 'var' to 'value'\n" +
                 "\t/gv:var\tPrint (Get) 'var's value before exiting\n" +
                 "\t/dv\tDump all variables instead of calling action\n" +
                 "\t/ev:var=value\tAfter call, expect 'var' to be 'value'",
-                dft.DisoveryTimeoutMs, // 0
-                dft.RediscoveryMs, // 1
-                dft.DeviceURN ?? "urn:...", // 2
-                dft.DeviceUDN ?? "10b07600-00...", // 3
-                dft.DeviceFriendlyName ?? "ABCD...", // 4
-                dft.ServiceURN ?? "urn:...", // 5
-                dft.ServiceID ?? "urn:...:1"); // 6
+                System.AppDomain.CurrentDomain.FriendlyName, // 0
+                dft.DisoveryTimeoutMs, // 1
+                dft.RediscoveryMs, // 2
+                dft.DeviceURN ?? "urn:...", // 3
+                dft.DeviceUDN ?? "10b07600-00...", // 4
+                dft.DeviceFriendlyName ?? "ABCD...", // 5
+                dft.ServiceURN ?? "urn:...", // 6
+                dft.ServiceID ?? "urn:...:1"); // 7
         }
 
         /// <summary>
