@@ -1,3 +1,4 @@
+#!/usr/bin/powershell
 $tv = "172.16.23.15"
 $service = "urn:samsung.com:service:MainTVAgent2:1"
 $upnpc = "..\bin\Debug\upnpc.exe"

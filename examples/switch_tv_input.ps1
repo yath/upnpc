@@ -1,3 +1,4 @@
+#!/usr/bin/powershell
 param (
     [string]$source = "HDMI3",
     [bool]$wait = $false
