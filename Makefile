@@ -9,6 +9,9 @@ bin/Debug/upnpc.exe: $(SRCS)
 bin/Release/upnpc.exe: $(SRCS)
 	$(XBUILD) /p:Configuration=Release /t:Build $(SOLUTION)
 
+README.html: README.md
+	pandoc -o $@ -f markdown_github $<
+
 .PHONY: clean
 clean:
 	$(XBUILD) $(SOLUTION) /t:Clean
